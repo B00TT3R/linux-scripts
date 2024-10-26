@@ -30,7 +30,7 @@ end
 local functionHash = {
     up= increase_brightness,
     down= decrease_brightness,
-    def= function() print("usage: volume.lua {up/down}") end
+    def= function() print("usage: brightness.lua {up/down}") end
 }
 local arg = arg[1]
 local func = functionHash[arg] or functionHash["def"]
